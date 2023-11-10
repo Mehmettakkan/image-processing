@@ -12,3 +12,6 @@ conda activate test
 
 switch to base area
 conda deactivate 
+
+Install OpenCV
+pip install opencv-python
