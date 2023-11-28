@@ -52,10 +52,10 @@ merged = cv2.merge([green, red, blue])
 # Displays the newly created image on the screen.
 cv2.imshow("merged", merged)
 
-# Kırmızı, mavi ve yeşil kanallarını birleştirerek başka bir görsel oluşturur.
+# Creates another image by combining red, blue and green channels.
 merged2 = cv2.merge([red, blue, green])
 
-# Oluşturulan diğer yeni görseli ekranda gösterir.
+# Shows the other new image created on the screen.
 cv2.imshow("merged2", merged2)
 
 cv2.waitKey(0)
