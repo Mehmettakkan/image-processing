@@ -7,6 +7,7 @@ Created on Mon Nov 13 17:38:03 2023
 """
 
 import matplotlib as plt
+# Imports the OpenCV library for image processing.
 import cv2
 # Imports the NumPy library for array operations and mathematical operations.
 import numpy as np
