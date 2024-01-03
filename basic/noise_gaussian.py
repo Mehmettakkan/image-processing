@@ -50,3 +50,14 @@ plt.title("Blur2")
 
 # Show all plots created in Matplotlib
 plt.show()
+
+Titles = ["Original","Blur1","Blur2"]
+images = [image, blur1, blur2]
+
+count = 3
+
+for i in range(count):
+    plt.subplot(1, 3, i+1)
+    plt.title(Titles[i])
+    plt.imshow(images[i])
+plt.show()
